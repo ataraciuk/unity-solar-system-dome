@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Assets/scripts/Rotate.cs" Line="29" Column="4" />
+      <File FileName="Assets/scripts/LockMouse.cs" Line="8" Column="28" />
+      <File FileName="Assets/scripts/ControlFlyer.cs" Line="19" Column="3" />
+      <File FileName="Assets/scripts/Populate.cs" Line="39" Column="18" />
+      <File FileName="Assets/scripts/Planet.cs" Line="19" Column="12" />
+      <File FileName="Assets/Standard Assets/Scripts/FPSWalker.js" Line="11" Column="44" />
+      <File FileName="Assets/scripts/SunRotate.cs" Line="14" Column="20" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
