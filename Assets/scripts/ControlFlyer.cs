@@ -22,5 +22,7 @@ public class ControlFlyer : MonoBehaviour {
 	 
 		transform.position += transform.forward*moveSpeed*Input.GetAxis("Vertical");
 		transform.position += transform.right*moveSpeed*Input.GetAxis("Horizontal");
+		transform.position += transform.up*(Input.GetKey(KeyCode.R) ? moveSpeed : 0.0f);
+		transform.position += -1.0f*transform.up*(Input.GetKey(KeyCode.F) ? moveSpeed : 0.0f);
 	}
 }
