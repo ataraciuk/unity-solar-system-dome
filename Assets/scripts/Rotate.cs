@@ -40,7 +40,7 @@ public class Rotate : MonoBehaviour {
 	
 	void InitPlanet(Planet p) {
 		//Debug.Log (p);
-		this.transform.parent.Rotate(new Vector3(p.inclination, 0.0f, 0.0f));
+		this.transform.parent.Rotate(new Vector3(0.0f, 0.0f, p.inclination));
 		maxX = maxY = p.distance6 * scale * 20000; //50 times closer to sun!
 		speed = 3 / p.orbPeriod;
 		rotSpeed = 24 / p.dayLength;
