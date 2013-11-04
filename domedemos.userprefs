@@ -1,10 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/Rotate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/Populate.cs">
     <Files>
-      <File FileName="Assets/scripts/Rotate.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/Rotate.cs" Line="43" Column="69" />
       <File FileName="Assets/scripts/LockMouse.cs" Line="1" Column="1" />
-      <File FileName="Assets/scripts/ControlFlyer.cs" Line="26" Column="31" />
+      <File FileName="Assets/scripts/ControlFlyer.cs" Line="1" Column="1" />
       <File FileName="Assets/scripts/Populate.cs" Line="1" Column="1" />
       <File FileName="Assets/scripts/Planet.cs" Line="1" Column="1" />
       <File FileName="Assets/scripts/SunRotate.cs" Line="1" Column="1" />

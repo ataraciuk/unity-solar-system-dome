@@ -47,10 +47,11 @@ public class Rotate : MonoBehaviour {
 		this.transform.localScale = Vector3.one * p.diameter * scale;
 		label.localScale = Vector3.one * Mathf.Sqrt(p.distance6) * 0.5f;
 		(label.GetComponent("TextMesh") as TextMesh).text = p.name;
-		var www = new WWW("file://"+Application.dataPath + "/Textures/" + p.name.ToLower() + ".jpg");
+		/*var www = new WWW("file://"+Application.dataPath + "/Textures/" + p.name.ToLower() + ".jpg");
 		while (www.isDone != true);
 		renderer.material.mainTexture = new Texture2D(1024, 512);
-		www.LoadImageIntoTexture(renderer.material.mainTexture as Texture2D);
+		www.LoadImageIntoTexture(renderer.material.mainTexture as Texture2D);*/
+		renderer.material.mainTexture = Resources.Load(p.name.ToLower()) as Texture2D;
 		started = true;
 	}
 }
